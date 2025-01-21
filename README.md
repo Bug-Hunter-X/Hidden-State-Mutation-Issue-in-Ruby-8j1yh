@@ -1,0 +1,2 @@
+# Hidden State Mutation in Ruby
+This example demonstrates a subtle issue in Ruby where attempting to modify an object's state via the getter method does not work as expected.  The getter method only provides read access;  it doesn't provide a mechanism to modify the internal state.  This can lead to unexpected behavior and bugs that are hard to track down. The solution demonstrates the proper way to modify object state using setter methods or instance variable assignment within a method.
